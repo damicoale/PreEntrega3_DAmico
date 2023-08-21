@@ -1,0 +1,67 @@
+/* navbar */
+.cls_back_mnu {
+	background-color: $background-color_2;
+	padding: 10px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	background-color: $background-color_2;
+	width: 95%;
+}
+
+.cls_mnu_prin_iz {
+	display: flex;
+	align-items: center;
+	margin-left: 3%;
+}
+
+.cls_mnu_prin_der {
+	display: flex;
+	gap: 50px;
+	align-items: center;
+	margin-bottom: 0%;
+	list-style: none;
+}
+
+.cls_mnu_prin_item {
+	color: $color_2;
+	text-decoration: none;
+	font-family: $font-family_1;
+	font-size: 20px;
+	padding: 5px;
+	align-items: center;
+
+	&:hover {
+		color: $color_3;
+		font-size: 22px;
+		transition: 1s;
+
+	}
+}
+
+.cls_mnu_prin_brand {
+	background-color: $background-color_1;
+	padding: 5px;
+	border-radius: 100%;
+	@include dimensiones (35px, 35px);
+
+	&:hover {
+		background-color: $background-color_4;
+		transition: 1s;
+		animation: rotar 1s linear;
+	}
+}
+
+.cls_mnu_prin_sel {
+	@extend .cls_mnu_prin_item;
+	text-decoration: underline;
+	color: $color_4;
+}
+
+.cls_mnu_prin_sel_img {
+	@extend .cls_mnu_prin_brand;
+	background-color: $background-color_3;
+}

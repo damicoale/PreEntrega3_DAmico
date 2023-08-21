@@ -1,0 +1,78 @@
+/* pagina contacto */
+.texto_mensaje {
+	width: 100%;
+}
+
+.boton_enviar {
+	@include dimensiones (150px, 50px);
+	font-size: 16px;
+
+	&:hover {
+		background-color: $background-color_3;
+		transition: 1s;
+	}
+}
+
+.boton_limpiar {
+	@include dimensiones (150px, 50px);
+	font-size: 16px;
+
+	&:hover {
+		background-color: $background-color_3;
+		transition: 1s;
+	}
+}
+
+.alinear_botones {
+	text-align: right;
+	margin-right: 10%;
+}
+
+.grilla-contacto {
+	display: grid;
+	grid-template-columns: 12% 25% 12% 12% 25%;
+	grid-template-rows: auto;
+	gap: 2% 2%;
+	grid-auto-flow: row;
+	grid-template-areas: "CUAD1 CUAD2 . CUAD3 CUAD4" "CUAD5 CUAD6 . CUAD7 CUAD8";
+}
+
+.grilla-contacto_cuad1 {
+	grid-area: CUAD1;
+	text-align: left;
+}
+
+.grilla-contacto_cuad2 {
+	grid-area: CUAD2;
+	text-align: left;
+}
+
+.grilla-contacto_cuad3 {
+	grid-area: CUAD3;
+	text-align: left;
+}
+
+.grilla-contacto_cuad4 {
+	grid-area: CUAD4;
+	text-align: left;
+}
+
+.grilla-contacto_cuad5 {
+	grid-area: CUAD5;
+	text-align: left;
+}
+
+.grilla-contacto_cuad6 {
+	grid-area: CUAD6;
+	text-align: left;
+}
+
+.grilla-contacto_cuad7 {
+	grid-area: CUAD7;
+	text-align: left;
+}
+
+.grilla-contacto_cuad8 {
+	grid-area: CUAD8;
+	text-align: left;
+}

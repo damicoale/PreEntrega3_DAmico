@@ -1,0 +1,19 @@
+/* pagina nosotros */
+.carousel-inner {
+	height: 350px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+.carousel-item {
+	height: 350px;
+	object-fit: cover;
+	border-radius: 20px;
+	transition-duration: 2;
+
+	img {
+		height: 350px;
+		object-fit: cover;
+		border-radius: 20px;
+	}
+}

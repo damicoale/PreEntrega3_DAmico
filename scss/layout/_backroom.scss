@@ -1,0 +1,133 @@
+/* pagina trastienda */
+.boton-comprar {
+	@include dimensiones (150px, 50px);
+	font-size: 16px;
+	border-bottom-left-radius: 19px;
+	background-color: $background-color_7;
+	border: 0px;
+
+	&:hover {
+		background-color: $background-color_3;
+		transition: 1s;
+	}
+}
+
+.grilla-pinturas {
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-rows: auto;
+	gap: 2% 2%;
+	grid-auto-flow: row;
+	grid-template-areas: "PIN1 PIN2 PIN3" "PIN4 PIN5 PIN6" "PIN7 PIN8 PIN9";
+	line-height: 140%;
+	font-size: 12px;
+	text-shadow: 0px 0px;
+}
+
+.grilla-pinturas_pin1 {
+	grid-area: PIN1;
+	text-align: left;
+	color: $color_5;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: $border-color_2;
+	background-color: $background-color_8;
+	height: auto;
+
+	img {
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border-color: $border-color_3;
+		width: 100%;
+	}
+}
+
+.grilla-pinturas_pin2 {
+	grid-area: PIN2;
+	text-align: justify;
+	color: $color_5;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: $border-color_2;
+	background-color: $background-color_8;
+	height: auto;
+
+	img {
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border-color: $border-color_3;
+		width: 100%;
+	}
+}
+
+.grilla-pinturas_pin3 {
+	grid-area: PIN3;
+	text-align: justify;
+	color: $color_5;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: $border-color_2;
+	background-color: $background-color_8;
+	height: auto;
+
+	img {
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border-color: $border-color_3;
+		width: 100%;
+	}
+}
+
+.grilla-pinturas_pin4 {
+	grid-area: PIN4;
+	text-align: left;
+	color: $color_5;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: $border-color_2;
+	background-color: $background-color_8;
+	height: auto;
+
+	img {
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border-color: $border-color_3;
+		width: 100%;
+	}
+}
+
+.grilla-pinturas_pin5 {
+	grid-area: PIN5;
+	text-align: justify;
+	color: $color_5;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: $border-color_2;
+	background-color: $background-color_8;
+	height: auto;
+
+	img {
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border-color: $border-color_3;
+		width: 100%;
+	}
+}
+
+.grilla-pinturas_pin6 {
+	grid-area: PIN6;
+	text-align: justify;
+	color: $color_5;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: $border-color_2;
+	background-color: $background-color_8;
+	height: auto;
+
+	img {
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border-color: $border-color_3;
+		width: 100%;
+	}
+}

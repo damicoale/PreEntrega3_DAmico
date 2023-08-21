@@ -1,0 +1,26 @@
+.tit_princip {
+	top: -20px;
+	margin-bottom: -5px;
+	text-align: center;
+	font-family: $font-family_1;
+	font-size: 42px;
+	color: $color_1;
+	position: relative;
+	text-shadow: 4px 4px rgba(246, 224, 242, 0.70);
+}
+
+.cls_idioma {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-start;
+	align-content: flex-start;
+	@include dimensiones (97%, 42px);
+	overflow: auto;
+	flex-direction: row;
+
+	div {
+		@include dimensiones (50px, 20px);
+		margin: 10px;
+	}
+}

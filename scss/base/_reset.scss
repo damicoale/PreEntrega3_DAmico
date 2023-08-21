@@ -1,0 +1,29 @@
+/* RESET */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: $background-color_1;
+}
+
+body {
+	min-height: 100vh;
+	max-height: 100%;
+	overflow: auto;
+}
+
+header {
+	background-image: url('../assets/images/encabezado.jpg');
+	background-size: cover;
+}
+
+main {
+	width: 100%;
+}
+
+@font-face {
+	font-family: 'aclonica-local';
+	src: url('../assets/fonts/Aclonica-Regular.ttf');
+}
