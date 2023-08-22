@@ -6,7 +6,7 @@
 .boton_enviar {
 	@include dimensiones (150px, 50px);
 	font-size: 16px;
-
+	border-radius: 0%;
 	&:hover {
 		background-color: $background-color_3;
 		transition: 1s;
@@ -16,7 +16,7 @@
 .boton_limpiar {
 	@include dimensiones (150px, 50px);
 	font-size: 16px;
-
+	border-radius: 0%;
 	&:hover {
 		background-color: $background-color_3;
 		transition: 1s;
